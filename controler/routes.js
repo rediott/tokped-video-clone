@@ -98,7 +98,7 @@ router.get('/getAll/product', async (req,res) => {
 router.get('/get/product/:id', async (req,res) => {
     try{
         const id = req.params.id;
-        const product = await Product.findById(id);
+        const product = await Product.findById(parseInt(id.substring(1)));
         res.json(product)
     }
     catch(error){
@@ -112,7 +112,7 @@ router.get('/get/product/:id', async (req,res) => {
 router.get('/get/video/:id', async (req,res) => {
     try{
         const id = req.params.id;
-        const video = await Video.findById(id);
+        const video = await Video.findById(parseInt(id.substring(1)));
         res.json(video)
     }
     catch(error){
@@ -126,7 +126,7 @@ router.get('/get/video/:id', async (req,res) => {
 router.get('/get/comment/:id', async (req,res) => {
     try{
         const id = req.params.id;
-        const comment = await Comment.findById(id);
+        const comment = await Comment.findById(parseInt(id.substring(1)));
         res.json(comment)
     }
     catch(error){
