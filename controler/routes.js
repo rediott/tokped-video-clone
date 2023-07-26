@@ -139,14 +139,17 @@ router.get('/get/comment/:id', async (req,res) => {
 
 
 
-router.patch('/update/:id', async (req,sec) => {
+router.patch('/update/video/:id', async (req,res) => {
     try{
         const id = req.params.id;
-        const updateSongData = req.body;
+        const video = await Video.find();
+        const objectId = video[parseInt(id.substring(1))].id
+
+        const updateData = req.body;
         const options = { new: true}
 
-        const result = await song.fingByIdAndUpdate(
-            id, updateSongData, options
+        const result = await Video.findByIdAndUpdate(
+            objectId, updateData, options
     )
             res.send(result)
     }
@@ -155,15 +158,84 @@ router.patch('/update/:id', async (req,sec) => {
     }
 })
 
-router.delete('/delete/:id', async (req, res) => {
+router.patch('/update/product/:id', async (req,res) => {
     try{
         const id = req.params.id;
-        const deledSongData = await song.findByIdAndDelete(id)
-        res.send(`Movie with ${deledSongData.Title} has been deleted..`)
+        const product= await Product.find();
+        const objectId = product[parseInt(id.substring(1))].id
+
+        const updateData = req.body;
+        const options = { new: true}
+
+        const result = await Product.findByIdAndUpdate(
+            objectId, updateData, options
+    )
+            res.send(result)
+    }
+    catch(error){
+        res.status(400).json( {message : error.message})
+    }
+})
+
+
+router.patch('/update/comment/:id', async (req,res) => {
+    try{
+        const id = req.params.id;
+        const comment = await Comment.find();
+        const objectId = comment[parseInt(id.substring(1))].id
+
+        const updateData = req.body;
+        const options = { new: true}
+
+        const result = await Comment.findByIdAndUpdate(
+            objectId, updateData, options
+    )
+            res.send(result)
+    }
+    catch(error){
+        res.status(400).json( {message : error.message})
+    }
+})
+
+router.delete('/delete/video/:id', async (req, res) => {
+    try{
+        const id = req.params.id;
+        const video = await Video.find();
+        const objectId = video[parseInt(id.substring(1))].id
+
+        const deledData = await Video.findByIdAndDelete(objectId)
+        res.send(`Video with title: ${deledData.title} has been deleted..`)
     }catch{
         res.status(400).json({ message: error.message})
     }
 })
+
+router.delete('/delete/product/:id', async (req, res) => {
+    try{
+        const id = req.params.id;
+        const product = await Product.find();
+        const objectId = product[parseInt(id.substring(1))].id
+
+        const deledData = await Product.findByIdAndDelete(objectId)
+        res.send(`Product : ${deledData.name} has been deleted..`)
+    }catch{
+        res.status(400).json({ message: error.message})
+    }
+})
+
+router.delete('/delete/comment/:id', async (req, res) => {
+    try{
+        const id = req.params.id;
+        const comment = await Comment.find();
+        const objectId = comment[parseInt(id.substring(1))].id
+
+        const deledData = await Comment.findByIdAndDelete(objectId)
+        res.send(`comment from ${deledData.username} has been deleted..`)
+    }catch{
+        res.status(400).json({ message: error.message})
+    }
+})
+
 
 router.get('/', (req,res) =>{
     res.send("Helloo");
