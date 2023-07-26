@@ -8,6 +8,10 @@ const commentSchema = new mongoose.Schema({
     comment:{
         require:true,
         type: String
+    },
+    index : {
+        require:true,
+        type: Number
     }
 
 });

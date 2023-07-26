@@ -6,10 +6,15 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 
+
+
 const mongoString = process.env.DATABASE_URL;
 const bodyparser = require('body-parser');
 mongoose.connect(mongoString);
 const db = mongoose.connection;
+
+
+
 
 const routes = require('./routes');
 const bodyParser = require('body-parser');

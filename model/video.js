@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+
 const videoSchema = new mongoose.Schema({
     title: {
         required:true,
@@ -20,8 +21,15 @@ const videoSchema = new mongoose.Schema({
     video:{
         require:true,
         type: String
+    },
+    index : {
+        require:true,
+        type: Number
     }
 
+
 });
+
+
 
 module.exports = mongoose.model("video",videoSchema,'video') 
