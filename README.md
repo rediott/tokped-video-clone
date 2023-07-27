@@ -476,4 +476,4 @@ In this application there are 3 models, namely videos, comments, and products th
 ```
 3. Open the tokped-video-clone folder from your IDE
 4. In terminal type npm install to install the dependecies
-5. To run the app use npm start 
+5. To run the app run the index.js from the controller folder or type npm run in terminal
