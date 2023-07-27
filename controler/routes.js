@@ -6,11 +6,12 @@ const Comment = require('../model/comment');
 const router = express.Router();
 
 
+//VIDEO API
+
 router.post('/post/video', (req,res) => {
     const video = new Video({
         title : req.body.title,
         creator : req.body.creator,
-        //view : req.body.view,
         thumbnail : req.body.thumbnail,
         video : req.body.video,
     })
@@ -23,6 +24,68 @@ router.post('/post/video', (req,res) => {
         )
     }   
 })
+
+router.get('/getAll/video', async (req,res) => {
+    try{
+        const video = await Video.find();
+        res.json(video)
+    }
+    catch(error){
+        res.status(500).json({
+            message : error.message
+        })
+    }
+})
+
+router.get('/get/video/:id', async (req,res) => {
+    try{
+        const id = req.params.id;
+        const video = await Video.find();
+        res.json(video[parseInt(id.substring(1))])
+    }
+    catch(error){
+        res.status(500).json({
+            message : error.message
+        })
+    }
+})
+
+
+router.patch('/update/video/:id', async (req,res) => {
+    try{
+        const id = req.params.id;
+        const video = await Video.find();
+        const objectId = video[parseInt(id.substring(1))].id
+
+        const updateData = req.body;
+        const options = { new: true}
+
+        const result = await Video.findByIdAndUpdate(
+            objectId, updateData, options
+    )
+            res.send(result)
+    }
+    catch(error){
+        res.status(400).json( {message : error.message})
+    }
+})
+
+router.delete('/delete/video/:id', async (req, res) => {
+    try{
+        const id = req.params.id;
+        const video = await Video.find();
+        const objectId = video[parseInt(id.substring(1))].id
+
+        const deledData = await Video.findByIdAndDelete(objectId)
+        res.send(`Video with title: ${deledData.title} has been deleted..`)
+    }catch{
+        res.status(400).json({ message: error.message})
+    }
+})
+
+
+
+//PRODUCT API
 
 router.post('/post/product', (req,res) => {
     const product = new Product({
@@ -41,6 +104,80 @@ router.post('/post/product', (req,res) => {
         )
     }   
 })
+
+
+router.get('/getAll/product/:videoIndex', async (req,res) => {
+    try{
+        const product = await Product.find();
+        res.json(product)
+    }
+    catch(error){
+        res.status(500).json({
+            message : error.message
+        })
+    }
+})
+
+router.get('/getAll/product', async (req,res) => {
+    try{
+        const product = await Product.find();
+        res.json(product)
+    }
+    catch(error){
+        res.status(500).json({
+            message : error.message
+        })
+    }
+})
+
+router.get('/get/product/:id', async (req,res) => {
+    try{
+        const id = req.params.id;
+        const product = await Product.find();
+        res.json(product[parseInt(id.substring(1))])
+    }
+    catch(error){
+        res.status(500).json({
+            message : error.message
+        })
+    }
+})
+
+
+router.patch('/update/product/:id', async (req,res) => {
+    try{
+        const id = req.params.id;
+        const product= await Product.find();
+        const objectId = product[parseInt(id.substring(1))].id
+
+        const updateData = req.body;
+        const options = { new: true}
+
+        const result = await Product.findByIdAndUpdate(
+            objectId, updateData, options
+    )
+            res.send(result)
+    }
+    catch(error){
+        res.status(400).json( {message : error.message})
+    }
+})
+
+router.delete('/delete/product/:id', async (req, res) => {
+    try{
+        const id = req.params.id;
+        const product = await Product.find();
+        const objectId = product[parseInt(id.substring(1))].id
+
+        const deledData = await Product.findByIdAndDelete(objectId)
+        res.send(`Product : ${deledData.name} has been deleted..`)
+    }catch{
+        res.status(400).json({ message: error.message})
+    }
+})
+
+//COMMENT API
+
 
 router.post('/post/comment/:videoIndex', async (req,res) => {
 
@@ -67,17 +204,7 @@ router.post('/post/comment/:videoIndex', async (req,res) => {
     }   
 })
 
-router.get('/getAll/video', async (req,res) => {
-    try{
-        const video = await Video.find();
-        res.json(video)
-    }
-    catch(error){
-        res.status(500).json({
-            message : error.message
-        })
-    }
-})
+
 
 router.get('/getAll/comment/:videoIndex', async (req,res) => {
     try{
@@ -97,64 +224,11 @@ router.get('/getAll/comment/:videoIndex', async (req,res) => {
 })
 
 
-router.get('/getAll/product/:videoIndex', async (req,res) => {
-    try{
-        const product = await Product.find();
-        res.json(product)
-    }
-    catch(error){
-        res.status(500).json({
-            message : error.message
-        })
-    }
-})
-
-
-router.get('/getAll/product', async (req,res) => {
-    try{
-        const product = await Product.find();
-        res.json(product)
-    }
-    catch(error){
-        res.status(500).json({
-            message : error.message
-        })
-    }
-})
 
 router.get('/getAll/comment', async (req,res) => {
     try{
         const comment = await Comment.find();
         res.json(comment)
-    }
-    catch(error){
-        res.status(500).json({
-            message : error.message
-        })
-    }
-})
-
-
-
-router.get('/get/product/:id', async (req,res) => {
-    try{
-        const id = req.params.id;
-        const product = await Product.find();
-        res.json(product[parseInt(id.substring(1))])
-    }
-    catch(error){
-        res.status(500).json({
-            message : error.message
-        })
-    }
-})
-
-
-router.get('/get/video/:id', async (req,res) => {
-    try{
-        const id = req.params.id;
-        const video = await Video.find();
-        res.json(video[parseInt(id.substring(1))])
     }
     catch(error){
         res.status(500).json({
@@ -178,47 +252,6 @@ router.get('/get/comment/:id', async (req,res) => {
 })
 
 
-
-
-router.patch('/update/video/:id', async (req,res) => {
-    try{
-        const id = req.params.id;
-        const video = await Video.find();
-        const objectId = video[parseInt(id.substring(1))].id
-
-        const updateData = req.body;
-        const options = { new: true}
-
-        const result = await Video.findByIdAndUpdate(
-            objectId, updateData, options
-    )
-            res.send(result)
-    }
-    catch(error){
-        res.status(400).json( {message : error.message})
-    }
-})
-
-router.patch('/update/product/:id', async (req,res) => {
-    try{
-        const id = req.params.id;
-        const product= await Product.find();
-        const objectId = product[parseInt(id.substring(1))].id
-
-        const updateData = req.body;
-        const options = { new: true}
-
-        const result = await Product.findByIdAndUpdate(
-            objectId, updateData, options
-    )
-            res.send(result)
-    }
-    catch(error){
-        res.status(400).json( {message : error.message})
-    }
-})
-
-
 router.patch('/update/comment/:id', async (req,res) => {
     try{
         const id = req.params.id;
@@ -235,32 +268,6 @@ router.patch('/update/comment/:id', async (req,res) => {
     }
     catch(error){
         res.status(400).json( {message : error.message})
-    }
-})
-
-router.delete('/delete/video/:id', async (req, res) => {
-    try{
-        const id = req.params.id;
-        const video = await Video.find();
-        const objectId = video[parseInt(id.substring(1))].id
-
-        const deledData = await Video.findByIdAndDelete(objectId)
-        res.send(`Video with title: ${deledData.title} has been deleted..`)
-    }catch{
-        res.status(400).json({ message: error.message})
-    }
-})
-
-router.delete('/delete/product/:id', async (req, res) => {
-    try{
-        const id = req.params.id;
-        const product = await Product.find();
-        const objectId = product[parseInt(id.substring(1))].id
-
-        const deledData = await Product.findByIdAndDelete(objectId)
-        res.send(`Product : ${deledData.name} has been deleted..`)
-    }catch{
-        res.status(400).json({ message: error.message})
     }
 })
 

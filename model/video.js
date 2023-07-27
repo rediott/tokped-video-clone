@@ -10,10 +10,6 @@ const videoSchema = new mongoose.Schema({
         required:true,
         type: String
     },
-    // view: {
-    //     required:true,
-    //     type: Number
-    // },
     thumbnail:{
         require:true,
         type: String
@@ -21,12 +17,7 @@ const videoSchema = new mongoose.Schema({
     video:{
         require:true,
         type: String
-    },
-    index : {
-        require:true,
-        type: Number
     }
-
 
 });
 
