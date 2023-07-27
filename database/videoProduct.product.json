@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "64bf30d23c43fd713d9c53c4"
+  },
+  "name": "Detergen Bubuk Putih",
+  "link": "https://www.tokopedia.com/wingsofficial/daia-deterjen-bubuk-putih-4-kg",
+  "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2022/7/26/8b23208a-6e11-4dc8-bca6-e75906151af7.png.webp?ect=4g",
+  "price": 53200
+},
+{
+  "_id": {
+    "$oid": "64c1d3d1918ab96d6ad5cb72"
+  },
+  "name": "Kantong Plastik Sampah Gulung Isi 5 Roll",
+  "link": "https://www.tokopedia.com/suncahaya/kantong-plastik-sampah-gulung-isi-5-roll",
+  "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2022/1/29/79d86d5e-2e72-4b42-98e7-cc55d04ef6a2.jpg.webp?ect=4g",
+  "price": 13950,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1d7b4918ab96d6ad5cb7c"
+  },
+  "name": "Acome Wired Earphone Headset AluminumAlloy",
+  "link": "https://www.tokopedia.com/acomeindone/acome-wired-earphone-headset-aluminumalloy-garansi-resmi-1-thn-aw08-grey?extParam=whid%3D6582993",
+  "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2023/6/5/0ca1a9a4-457e-4cfb-ad25-522a4e5b157d.jpg.webp?ect=4g",
+  "price": 26900,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1d7fd918ab96d6ad5cb7e"
+  },
+  "name": "TYPE C JACK AUDIO SPLITTER 2 IN 1 JACK 3.5MM WITH CHARGING",
+  "link": "https://www.tokopedia.com/nanvanjayaindonesia/garansi-type-c-jack-audio-splitter-2-in-1-jack-3-5mm-with-charging-hitam?source=homepage.top_carousel.0.39123",
+  "image": "https://images.tokopedia.net/img/cache/700/product-1/2020/3/31/499869/499869_7d6ff03f-38ae-47d4-97aa-d57651982660_700_700.webp?ect=4g",
+  "price": 11000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1d854918ab96d6ad5cb80"
+  },
+  "name": "EARTIPS KARET HEADSET EARPHONE HANDSFREE UNIVERSAL",
+  "link": "https://www.tokopedia.com/nanvanjayaindonesia/garansi-eartips-karet-headset-earphone-handsfree-universal",
+  "image": "https://images.tokopedia.net/img/cache/700/hDjmkQ/2023/7/15/5f5d5445-d885-47de-b01f-19e127982b70.png.webp?ect=4g",
+  "price": 3360,
+  "__v": 0
+}]
