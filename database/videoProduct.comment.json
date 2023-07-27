@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "64c1e7f15116d158d34b53ed"
+  },
+  "username": "Riski",
+  "comment": "waudh",
+  "videoId": "64c1d1f98a619dc7a244b1e0",
+  "createdAt": {
+    "$date": "2023-07-27T03:43:45.976Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-27T03:43:45.976Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1e8695116d158d34b53f0"
+  },
+  "username": "Jono",
+  "comment": "Mantap gan",
+  "videoId": "64c1d1f98a619dc7a244b1e0",
+  "createdAt": {
+    "$date": "2023-07-27T03:45:45.763Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-27T03:45:45.763Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1e86e5116d158d34b53f3"
+  },
+  "username": "Jono",
+  "comment": "Mantap gan",
+  "videoId": "64c1da13a44b45f841b4c387",
+  "createdAt": {
+    "$date": "2023-07-27T03:45:50.061Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-27T03:45:50.061Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1e8795116d158d34b53f6"
+  },
+  "username": "Komo",
+  "comment": "Mantap",
+  "videoId": "64c1da13a44b45f841b4c387",
+  "createdAt": {
+    "$date": "2023-07-27T03:46:01.126Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-27T03:46:01.126Z"
+  },
+  "__v": 0
+}]

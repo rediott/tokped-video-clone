@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "64bf2fa93c43fd713d9c53c2"
+  },
+  "title": "The Kennedy Assassination: Inside the Book Depository",
+  "creator": "LEMiNO",
+  "thumbnail": "https://i.ytimg.com/vi/5u7euN1HTuU/maxresdefault.jpg",
+  "video": "https://www.youtube.com/watch?v=5u7euN1HTuU"
+},
+{
+  "_id": {
+    "$oid": "64c1d1f98a619dc7a244b1e0"
+  },
+  "title": "What Are My Sponsors Hiding?",
+  "creator": "Linus Tech Tips",
+  "thumbnail": "view-source:https://i.ytimg.com/vi/rh7oegwCyRk/maxresdefault.jpg",
+  "video": "https://www.youtube.com/watch?v=rh7oegwCyRk",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1da13a44b45f841b4c387"
+  },
+  "title": " Nyobain Samsung Galaxy Z Flip5 dan Fold5 Indonesia!",
+  "creator": "Gadgetin",
+  "thumbnail": "https://i.ytimg.com/vi/COaAOqIwjfw/maxresdefault.jpg",
+  "video": "https://www.youtube.com/watch?v=COaAOqIwjfw",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1da1ea44b45f841b4c389"
+  },
+  "title": "MonggoDB Simplified",
+  "creator": "Web Dev Simplified",
+  "thumbnail": "https://i.ytimg.com/vi/ofme2o29ngU/maxresdefault.jpg",
+  "video": "https://www.youtube.com/watch?v=ofme2o29ngU",
+  "__v": 0
+}]
