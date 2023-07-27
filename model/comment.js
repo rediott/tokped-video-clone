@@ -9,9 +9,9 @@ const commentSchema = new mongoose.Schema({
         require:true,
         type: String
     },
-    index : {
+   videoId: {
         require:true,
-        type: Number
+        type: String
     }
 
 });

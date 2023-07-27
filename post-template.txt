@@ -1,0 +1,31 @@
+ For video as json body
+
+     {
+    
+     "title" : "What Are My Sponsors Hiding?",
+     "creator" : "Linus Tech Tips",
+     "view"     : 1234,
+     "thumbnail" : "view-source:https://i.ytimg.com/vi/rh7oegwCyRk/maxresdefault.jpg",
+     "video" : "https://www.youtube.com/watch?v=rh7oegwCyRk"
+        
+     }
+
+ For product as json body
+
+ {
+    
+    "name" : "Kantong Plastik Sampah Gulung Isi 5 Roll",
+    "link" : "https://www.tokopedia.com/suncahaya/kantong-plastik-sampah-gulung-isi-5-roll",
+    "image" : "https://images.tokopedia.net/img/cache/700/VqbcmM/2022/1/29/79d86d5e-2e72-4b42-98e7-cc55d04ef6a2.jpg.webp?ect=4g",
+    "price" : 13950
+    
+ }
+
+For comment as json body (dont forget to fill videoId on params)
+
+    {
+    
+     "username" : "winbas",
+     "comment" : "Mantap adik adik"
+        
+    }

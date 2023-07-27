@@ -42,13 +42,22 @@ router.post('/post/product', (req,res) => {
     }   
 })
 
-router.post('/post/comment', (req,res) => {
-    const comment = new Comment({
-        username : req.body.username,
-        comment : req.body.comment
-    
-    })
+router.post('/post/comment/:videoIndex', async (req,res) => {
+
+
     try{
+
+        const id = req.params.videoIndex;
+        const video = await Video.find();
+        const objectId = video[parseInt(id.substring(1))].id
+    
+        const comment = new Comment({
+
+            username : req.body.username,
+            comment : req.body.comment,
+            videoId : objectId
+        })
+
         const saveComment = comment.save();
         res.status(200).json(saveComment);
     }catch(error){
@@ -70,9 +79,14 @@ router.get('/getAll/video', async (req,res) => {
     }
 })
 
-router.get('/getAll/comment', async (req,res) => {
+router.get('/getAll/comment/:videoIndex', async (req,res) => {
     try{
-        const comment = await Comment.find();
+
+        const id = req.params.videoIndex;
+        const video = await Video.find();
+        const objectId = video[parseInt(id.substring(1))].id
+
+        const comment = await Comment.find({'videoId' : objectId});
         res.json(comment)
     }
     catch(error){
@@ -81,6 +95,20 @@ router.get('/getAll/comment', async (req,res) => {
         })
     }
 })
+
+
+router.get('/getAll/product/:videoIndex', async (req,res) => {
+    try{
+        const product = await Product.find();
+        res.json(product)
+    }
+    catch(error){
+        res.status(500).json({
+            message : error.message
+        })
+    }
+})
+
 
 router.get('/getAll/product', async (req,res) => {
     try{
@@ -93,6 +121,19 @@ router.get('/getAll/product', async (req,res) => {
         })
     }
 })
+
+router.get('/getAll/comment', async (req,res) => {
+    try{
+        const comment = await Comment.find();
+        res.json(comment)
+    }
+    catch(error){
+        res.status(500).json({
+            message : error.message
+        })
+    }
+})
+
 
 
 router.get('/get/product/:id', async (req,res) => {
