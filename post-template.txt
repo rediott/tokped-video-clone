@@ -21,7 +21,8 @@
     
  }
 
-For comment as json body (dont forget to fill videoId on params)
+For comment as json body (dont forget to fill videoId on params, videoId the will look up for the objectId of the video, 
+then the object id of the video will be written inside the comments object)
 
     {
     
