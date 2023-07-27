@@ -38,32 +38,30 @@ I used MongoDB as database on this project. The database was named "videoProduct
 }
 ```
 # 2. API Structure
-Dalam aplikasi ini terdapat 3 model yaitu video, comment, dan product yang terhubung langsung dari database videProduct. Setiap model mewakili masing masing collections.
-Perlu diingat "id" disini adalah index dari item. Index sendiri berisi urutan item sesuai urutan POST dari item tersebu, index dapat digunakan untuk mendapatkan objectId 
-dari item tertentu yang dapat digunakan untuk operasi PATCH dan DELETE.
+In this application there are 3 models, namely videos, comments, and products that are connected directly from the videProduct database. Each model represents each collection. Keep in mind the "id" here is the index of the item. The index itself contains the order of items according to the POST order of the item, the index can be used to get the objectId of a particular item which can be used for PATCH and DELETE operations.
 
 * # "video" Model API
-- Menambahkan video baru : POST /api/post/video
-- Mendapatkan list semua video : GET /api/getAll/video
-- Mendapatkan video  dengan index : GET /api/get/video/:id
-- Mengupdate informasi video : PATCH /api/update/video/:id
-- Menghapus video : DELETE /api/delete/video/:id
+- Adding new video : POST /api/post/video
+- Getting list of all videos : GET /api/getAll/video
+- Getting specific video : GET /api/get/video/:id
+- Updating video info : PATCH /api/update/video/:id
+- Deleting video : DELETE /api/delete/video/:id
 
 * # "product" Model API
-- Menambahkan product baru : POST /api/post/product
-- Mendapatkan list semua product : GET /api/getAll/product
-- Mendapatkan list semua product pada video spesifik : GET /api/getAll/product/:videoIndex
-- Mendapatkan produck  dengan index : GET /api/get/product/:id
-- Mengupdate informasi product : PATCH /api/update/product/:id
-- Menghapus product : DELETE /api/delete/product/:id
+- Adding new product : POST /api/post/product
+- getting list of all product : GET /api/getAll/product
+- getting list of all product on specific videos : GET /api/getAll/product/:videoIndex
+- getting specific product : GET /api/get/product/:id
+- updating product information : PATCH /api/update/product/:id
+- deleting product : DELETE /api/delete/product/:id
 
 * # "comment" Model API
-- Menambahkan product comment baru pada video : POST /api/post/comment/:videoIndex
-- Mendapatkan list semua comment : GET /api/getAll/comment
-- Mendapatkan list semua comment pada video spesifik : GET /api/getAll/comment/:videoIndex
-- Mendapatkan produck  dengan index : GET /api/get/comment/:id
-- Mengupdate isi comment : PATCH /api/update/comment/:id
-- Menghapus comment : DELETE /api/delete/comment/:id
+- adding comments in specific video: POST /api/post/comment/:videoIndex
+- Mgetting list of all coments : GET /api/getAll/comment
+- getting all comments in specific video : GET /api/getAll/comment/:videoIndex
+- getting specific comment : GET /api/get/comment/:id
+- updating comment: PATCH /api/update/comment/:id
+- deleting comment : DELETE /api/delete/comment/:id
 
 # 3. API Request and Responses
 #Video
@@ -467,4 +465,15 @@ dari item tertentu yang dapat digunakan untuk operasi PATCH dan DELETE.
   * **Code:** 400  
   **Content:** `{ error : "Bad Request" }`  
 
+# 4. How to install
 
+1. Clone this repo into your machine "https://github.com/rediott/tokped-video-clone your-destination-folder", or just download the Zip of this file
+2. Setting up the database
+```
+    1. Create new database on your MongoDB compass
+    2. Import JSON and selec 3 collections from database folder inside tokped-video-clone
+    3. Open the .env file and replace the DATABASE_URL with your local database url and database name you just created
+```
+3. Open the tokped-video-clone folder from your IDE
+4. In terminal type npm install to install the dependecies
+5. To run the app use npm start 
