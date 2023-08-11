@@ -205,7 +205,7 @@
     name: string,
     link : String (URL),
     image: String (URL),
-    price : Number
+    price : String
   }
 ```
 * **Success Response:**  
@@ -225,7 +225,7 @@
       name: string,
       link : String (URL),
       image: String (URL),
-      price : Number
+      price : String
   }
 ```
 * **Headers**  

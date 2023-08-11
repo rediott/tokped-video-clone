@@ -17,7 +17,7 @@
     "name" : "Kantong Plastik Sampah Gulung Isi 5 Roll",
     "link" : "https://www.tokopedia.com/suncahaya/kantong-plastik-sampah-gulung-isi-5-roll",
     "image" : "https://images.tokopedia.net/img/cache/700/VqbcmM/2022/1/29/79d86d5e-2e72-4b42-98e7-cc55d04ef6a2.jpg.webp?ect=4g",
-    "price" : 13950
+    "price" : "Rp. 13.950"
     
  }
 
