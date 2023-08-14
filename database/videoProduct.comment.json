@@ -1,30 +1,15 @@
 [{
   "_id": {
-    "$oid": "64c1e7f15116d158d34b53ed"
-  },
-  "username": "Riski",
-  "comment": "waudh",
-  "videoId": "64c1d1f98a619dc7a244b1e0",
-  "createdAt": {
-    "$date": "2023-07-27T03:43:45.976Z"
-  },
-  "updatedAt": {
-    "$date": "2023-07-27T03:43:45.976Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
     "$oid": "64c1e8695116d158d34b53f0"
   },
   "username": "Jono",
-  "comment": "Mantap gan",
+  "comment": "Maaf banf",
   "videoId": "64c1d1f98a619dc7a244b1e0",
   "createdAt": {
     "$date": "2023-07-27T03:45:45.763Z"
   },
   "updatedAt": {
-    "$date": "2023-07-27T03:45:45.763Z"
+    "$date": "2023-07-28T01:52:05.690Z"
   },
   "__v": 0
 },
@@ -55,6 +40,216 @@
   },
   "updatedAt": {
     "$date": "2023-07-27T03:46:01.126Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c322531da17ef75784fcfb"
+  },
+  "username": "AABBRR",
+  "comment": "beli dimana gan?",
+  "videoId": "64c1d1f98a619dc7a244b1e0",
+  "createdAt": {
+    "$date": "2023-07-28T02:05:07.608Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-28T02:05:07.608Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d84b9c8bcc90000e64dee9"
+  },
+  "username": "kiki",
+  "comment": "Mantap gan",
+  "videoId": "64c1da1ea44b45f841b4c389",
+  "createdAt": {
+    "$date": "2023-08-13T03:18:52.221Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T03:18:52.221Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d84bcd8bcc90000e64def4"
+  },
+  "username": "Alex Jujur",
+  "comment": "Sangat Membantu",
+  "videoId": "64c1da1ea44b45f841b4c389",
+  "createdAt": {
+    "$date": "2023-08-13T03:19:41.535Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T03:19:41.535Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d84bf58bcc90000e64df09"
+  },
+  "username": "Fans Linus",
+  "comment": "Mantab bang linus",
+  "videoId": "64c322121da17ef75784fcf6",
+  "createdAt": {
+    "$date": "2023-08-13T03:20:21.389Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T03:20:21.389Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d84d338bcc90000e64df14"
+  },
+  "username": "Aziz",
+  "comment": "Keren mas",
+  "videoId": "64c322121da17ef75784fcf6",
+  "createdAt": {
+    "$date": "2023-08-13T03:25:39.100Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T03:25:39.100Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d84d928bcc90000e64df27"
+  },
+  "username": "Alex Jujur",
+  "comment": "Keren",
+  "videoId": "64c322121da17ef75784fcf6",
+  "createdAt": {
+    "$date": "2023-08-13T03:27:14.453Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T03:27:14.453Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d84e0b8bcc90000e64df2a"
+  },
+  "username": "User 1",
+  "comment": "mantap",
+  "videoId": "64c322121da17ef75784fcf6",
+  "createdAt": {
+    "$date": "2023-08-13T03:29:15.768Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T03:29:15.768Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d84e648bcc90000e64df3f"
+  },
+  "username": "Mikael Huang",
+  "comment": "Sangat informatif",
+  "videoId": "64d3344dfc5a6ff5ed26ed5a",
+  "createdAt": {
+    "$date": "2023-08-13T03:30:44.848Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T03:30:44.848Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d84ed28bcc90000e64df4a"
+  },
+  "username": "Aziz",
+  "comment": "Keren banget editingnya",
+  "videoId": "64d3344dfc5a6ff5ed26ed5a",
+  "createdAt": {
+    "$date": "2023-08-13T03:32:34.938Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T03:32:34.938Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d871f58bcc90000e64df6d"
+  },
+  "username": "Relu",
+  "comment": "mantap bang",
+  "videoId": "64d3344dfc5a6ff5ed26ed5a",
+  "createdAt": {
+    "$date": "2023-08-13T06:02:29.022Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T06:02:29.022Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d8725a8bcc90000e64dfbc"
+  },
+  "username": "Pesona.Net",
+  "comment": "Semoga Keluarga penumpang ditabahkan",
+  "videoId": "64d334dcfc5a6ff5ed26ed5b",
+  "createdAt": {
+    "$date": "2023-08-13T06:04:10.317Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T06:04:10.317Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d872ae8bcc90000e64dffb"
+  },
+  "username": "Pendaki Sejati 234",
+  "comment": "Cita citaku naik ke gunung Eberest",
+  "videoId": "64d3362afc5a6ff5ed26ed5e",
+  "createdAt": {
+    "$date": "2023-08-13T06:05:34.215Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T06:05:34.215Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d873438bcc90000e64e02a"
+  },
+  "username": "Rudi 88",
+  "comment": "Wauis Mengerikan",
+  "videoId": "64d335bffc5a6ff5ed26ed5d",
+  "createdAt": {
+    "$date": "2023-08-13T06:08:03.082Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T06:08:03.082Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d8a07dd28f6aaf27285ca7"
+  },
+  "username": "Pejuang SBM",
+  "comment": "ngeri banget hilang di hutan",
+  "videoId": "64d3354dfc5a6ff5ed26ed5c",
+  "createdAt": {
+    "$date": "2023-08-13T09:21:01.623Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T09:21:01.623Z"
   },
   "__v": 0
 }]

@@ -1,30 +1,11 @@
 [{
   "_id": {
-    "$oid": "64bf30d23c43fd713d9c53c4"
-  },
-  "name": "Detergen Bubuk Putih",
-  "link": "https://www.tokopedia.com/wingsofficial/daia-deterjen-bubuk-putih-4-kg",
-  "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2022/7/26/8b23208a-6e11-4dc8-bca6-e75906151af7.png.webp?ect=4g",
-  "price": 53200
-},
-{
-  "_id": {
-    "$oid": "64c1d3d1918ab96d6ad5cb72"
-  },
-  "name": "Kantong Plastik Sampah Gulung Isi 5 Roll",
-  "link": "https://www.tokopedia.com/suncahaya/kantong-plastik-sampah-gulung-isi-5-roll",
-  "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2022/1/29/79d86d5e-2e72-4b42-98e7-cc55d04ef6a2.jpg.webp?ect=4g",
-  "price": 13950,
-  "__v": 0
-},
-{
-  "_id": {
     "$oid": "64c1d7b4918ab96d6ad5cb7c"
   },
   "name": "Acome Wired Earphone Headset AluminumAlloy",
   "link": "https://www.tokopedia.com/acomeindone/acome-wired-earphone-headset-aluminumalloy-garansi-resmi-1-thn-aw08-grey?extParam=whid%3D6582993",
   "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2023/6/5/0ca1a9a4-457e-4cfb-ad25-522a4e5b157d.jpg.webp?ect=4g",
-  "price": 26900,
+  "price": "Rp 26.900",
   "__v": 0
 },
 {
@@ -34,7 +15,7 @@
   "name": "TYPE C JACK AUDIO SPLITTER 2 IN 1 JACK 3.5MM WITH CHARGING",
   "link": "https://www.tokopedia.com/nanvanjayaindonesia/garansi-type-c-jack-audio-splitter-2-in-1-jack-3-5mm-with-charging-hitam?source=homepage.top_carousel.0.39123",
   "image": "https://images.tokopedia.net/img/cache/700/product-1/2020/3/31/499869/499869_7d6ff03f-38ae-47d4-97aa-d57651982660_700_700.webp?ect=4g",
-  "price": 11000,
+  "price": "Rp 11.000",
   "__v": 0
 },
 {
@@ -44,6 +25,160 @@
   "name": "EARTIPS KARET HEADSET EARPHONE HANDSFREE UNIVERSAL",
   "link": "https://www.tokopedia.com/nanvanjayaindonesia/garansi-eartips-karet-headset-earphone-handsfree-universal",
   "image": "https://images.tokopedia.net/img/cache/700/hDjmkQ/2023/7/15/5f5d5445-d885-47de-b01f-19e127982b70.png.webp?ect=4g",
-  "price": 3360,
+  "price": "Rp 3.360",
   "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c322271da17ef75784fcf8"
+  },
+  "name": "Kantong Plastik Sampah Gulung Isi 5 Roll",
+  "link": "https://www.tokopedia.com/suncahaya/kantong-plastik-sampah-gulung-isi-5-roll",
+  "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2022/1/29/79d86d5e-2e72-4b42-98e7-cc55d04ef6a2.jpg.webp?ect=4g",
+  "price": "Rp 13.950",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d63c696418276d8a09fa3c"
+  },
+  "name": "HG Gundam Lfrith - Lfrith",
+  "link": "https://www.tokopedia.com/hobbyjapan/hg-gundam-lfrith-lfrith",
+  "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/11/19/0f7353e9-4bc7-40c3-b3eb-93dd02dbb3df.jpg",
+  "price": "Rp 260.000"
+},
+{
+  "_id": {
+    "$oid": "64d63cc06418276d8a09fa3d"
+  },
+  "name": "HG Beguir-Beu",
+  "link": "https://www.tokopedia.com/hobbyjapan/hg-beguir-beu",
+  "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/9/2/f2313787-8680-4389-bfd3-5c9dcf90a789.jpg",
+  "price": "Rp 220.000"
+},
+{
+  "_id": {
+    "$oid": "64d63cfa6418276d8a09fa3e"
+  },
+  "name": "HG Gundam RX 78-2",
+  "link": "https://www.tokopedia.com/hobbyjapan/hg-revive-rx-78-2-gundam-hg-rx-78-2",
+  "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/7/11/88bcccac-d1b2-41a8-9bf3-e31c083a7283.jpg",
+  "price": "Rp 160.000"
+},
+{
+  "_id": {
+    "$oid": "64d63d706418276d8a09fa3f"
+  },
+  "name": "Indomie Goreng Paket 5 Pcs",
+  "link": "https://www.tokopedia.com/suksesjayamlg/indomie-goreng-mie-goreng-instant-5-pcs",
+  "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/2/25/146d1e5c-6739-40d1-ad43-06bb6268b234.jpg",
+  "price": "Rp 16.400"
+},
+{
+  "_id": {
+    "$oid": "64d63dbb6418276d8a09fa40"
+  },
+  "name": "MINYAK GORENG SUNCO 2 LITER",
+  "link": "https://www.tokopedia.com/maomao/minyak-goreng-sunco-2-liter",
+  "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/6/18/6a79339b-844e-4967-8d59-34336a8f6272.jpg",
+  "price": "Rp 36.500"
+},
+{
+  "_id": {
+    "$oid": "64d63e396418276d8a09fa41"
+  },
+  "name": "Sleeping Bag Mummy",
+  "link": "https://www.tokopedia.com/antarestarofficial/sleeping-bag-mummy-outdoor-hiking-hangat-tebal-kualitas-terbaik-random",
+  "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/1/19/c625e709-8e17-4032-ac00-c78d241c53fd.png",
+  "price": "Rp 189.000"
+},
+{
+  "_id": {
+    "$oid": "64d9990a918c0ca1449d57e2"
+  },
+  "name": "KINETIC Universal Mechanical Keyboard Bag Carry Hard Case",
+  "link": "https://www.tokopedia.com/pressplay/kinetic-universal-mechanical-keyboard-bag-carry-hard-case",
+  "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/6/8/cf5a9fb1-f391-405e-80eb-0e8176374635.jpg",
+  "price": "Rp 439.000"
+},
+{
+  "_id": {
+    "$oid": "64d99951918c0ca1449d57e3"
+  },
+  "name": "ROVER84 v3 Lite Mechanical Keyboard Gasket Mount by Press Play - AJAZZ MistGreen",
+  "link": "https://www.tokopedia.com/pressplay/rover84-v3-lite-mechanical-keyboard-gasket-mount-by-press-play-ajazz-mistgreen",
+  "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/7/29/4eadee5d-c4fc-4abf-a766-493678a7e22a.jpg",
+  "price": "Rp 789.000"
+},
+{
+  "_id": {
+    "$oid": "64d999c2918c0ca1449d57e4"
+  },
+  "name": "RAVEN Doubleshot PBT Keycaps Set",
+  "link": "https://www.tokopedia.com/pressplay/raven-doubleshot-pbt-keycaps-set",
+  "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/12/6/91e5b1bb-c151-46aa-8237-dc5b40a8416c.jpg",
+  "price": "Rp 319.000"
+},
+{
+  "_id": {
+    "$oid": "64d99a48918c0ca1449d57eb"
+  },
+  "name": "M56/ARK-SR7[OG]",
+  "link": "https://www.tokopedia.com/machine56/m56-ark-sr7-og-l-48059",
+  "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/4/1/6cebcd76-e766-4a71-9c20-14e3984c4319.png",
+  "price": "Rp 1.700.000"
+},
+{
+  "_id": {
+    "$oid": "64d99a8e918c0ca1449d57ec"
+  },
+  "name": "V1A/PUBGM56",
+  "link": "https://www.tokopedia.com/machine56/v1a-pubgm56-l-f9996",
+  "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/5/31/5a1b767f-eb16-4a32-82f7-bd8f1dc3663d.png",
+  "price": "Rp 2.000.000"
+},
+{
+  "_id": {
+    "$oid": "64d99ae9918c0ca1449d57ef"
+  },
+  "name": "M56/MS-BOMBER D1",
+  "link": "https://www.tokopedia.com/machine56/m56-ms-bomber-d1-l",
+  "image": "https://images.tokopedia.net/img/cache/900/product-1/2020/3/25/96455402/96455402_1ff57115-6bb8-43e0-ab07-23ac685cb6bf_800_800",
+  "price": "Rp 1.450.000"
+},
+{
+  "_id": {
+    "$oid": "64d99b43918c0ca1449d57f0"
+  },
+  "name": "MS/B-TYPE_V3-BK",
+  "link": "https://www.tokopedia.com/machine56/ms-b-type-v3-bk-l",
+  "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/3/10/db1a7065-b4b1-4b8b-87a6-a424f5b1a84d.png",
+  "price": "Rp 1.500.0000"
+},
+{
+  "_id": {
+    "$oid": "64d99b96918c0ca1449d57f1"
+  },
+  "name": "VGA Card MSI GeForce GTX 1650 D6 VENTUS XS OCV1 - 4GB GDDR6",
+  "link": "https://www.tokopedia.com/nvidiageforce/vga-card-msi-geforce-gtx-1650-d6-ventus-xs-ocv1-4gb-gddr6",
+  "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/2/7/18ab384c-7ab2-4da8-bf32-3714e946f572.jpg",
+  "price": "Rp 2.410.000"
+},
+{
+  "_id": {
+    "$oid": "64d99bed918c0ca1449d57f2"
+  },
+  "name": "VGA Card Inno3D GeForce RTX 3060 TWIN X2 12GB GDDR6",
+  "link": "https://www.tokopedia.com/nvidiageforce/vga-card-inno3d-geforce-rtx-3060-twin-x2-12gb-gddr6",
+  "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/4/12/65607f0f-4c3e-439a-abb0-891a9f22e870.jpg",
+  "price": "Rp 4.700.000"
+},
+{
+  "_id": {
+    "$oid": "64d99c35918c0ca1449d57f3"
+  },
+  "name": "VGA Card Gigabyte GeForce RTX 4060 Ti EAGLE 8G - 8GB GDDR6",
+  "link": "https://www.tokopedia.com/nvidiageforce/vga-card-gigabyte-geforce-rtx-4060-ti-eagle-8g-8gb-gddr6",
+  "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/5/24/9abed90d-4364-47b9-b9da-11f4582bd530.jpg",
+  "price": "Rp 7.002.000"
 }]
